@@ -1,0 +1,11 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.50.25:8888/eureka/
+  instance:
+    hostname: name
+spring:
+  application:
+    name: eureka-client-2
+server:
+  port: 8002
